@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE universo [
+<!ELEMENT universo (starwars)+>
+<!ELEMENT starwars (cod_personaje, nombre, lado, raza, pri_aparicion, ult_aparicion)>
+<!ELEMENT cod_personaje (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT lado (#PCDATA)>
+<!ELEMENT raza (#PCDATA)>
+<!ELEMENT pri_aparicion (#PCDATA)>
+<!ELEMENT ult_aparicion (#PCDATA)>
+]>
+
+<universo>
+    <starwars>
+        <cod_personaje>01</cod_personaje>
+        <nombre>Darth Vader</nombre>
+        <lado>Oscuro</lado>
+        <raza>Humano</raza>
+        <pri_aparicion>Episodio IV</pri_aparicion>
+        <ult_aparicion>Rogue One</ult_aparicion>
+    </starwars>
+    <starwars>
+        <cod_personaje>02</cod_personaje>
+        <nombre>Darth Sidious</nombre>
+        <lado>Oscuro</lado>
+        <raza>Humano</raza>
+        <pri_aparicion>Episodio V</pri_aparicion>
+        <ult_aparicion>Episodio IX</ult_aparicion>
+    </starwars>
+    <starwars>
+        <cod_personaje>03</cod_personaje>
+        <nombre>Luke Skywalker</nombre>
+        <lado>Luminoso</lado>
+        <raza>Humano</raza>
+        <pri_aparicion>Episodio IV</pri_aparicion>
+        <ult_aparicion>Episodio IX</ult_aparicion>
+    </starwars>
+    <starwars>
+        <cod_personaje>04</cod_personaje>
+        <nombre>Chewbacca</nombre>
+        <lado>Luminoso</lado>
+        <raza>Wookiee</raza>
+        <pri_aparicion>Episodio IV</pri_aparicion>
+        <ult_aparicion>Episodio IX</ult_aparicion>
+    </starwars>
+    <starwars>
+        <cod_personaje>05</cod_personaje>
+        <nombre>Han Solo</nombre>
+        <lado>Luminoso</lado>
+        <raza>Humano</raza>
+        <pri_aparicion>Episodio IV</pri_aparicion>
+        <ult_aparicion>Episodio IX</ult_aparicion>
+    </starwars>
+</universo>
